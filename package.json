@@ -1,0 +1,35 @@
+{
+  "name": "karma-jasmine-dom",
+  "version": "1.0.0",
+  "description": "Set of 19 jasmine custom matchers configured for karma to test html DOM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jasmine",
+    "dom",
+    "custom",
+    "matchers",
+    "html",
+    "document",
+    "object",
+    "model",
+    "unit",
+    "tests"
+  ],
+  "author": "Paweł Rafałko",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine-dom-custom-matchers": "^1.0.1",
+    "karma-jasmine": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrafalko/karma-jasmine-dom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devrafalko/karma-jasmine-dom/issues"
+  },
+  "homepage": "https://github.com/devrafalko/karma-jasmine-dom#readme"
+}
