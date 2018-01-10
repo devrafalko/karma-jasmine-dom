@@ -24,7 +24,7 @@ module.exports = function(config) {
 Load the matchers with `jasmine.addMatchers` native method:
 ```javascript
 describe("The <body>",function(){
-  beforeAll(function(done){
+  beforeAll(function(){
     jasmine.addMatchers(DOMCustomMatchers);
   });
 
