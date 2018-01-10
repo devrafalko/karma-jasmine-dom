@@ -1,6 +1,6 @@
 {
   "name": "karma-jasmine-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set of 19 jasmine custom matchers configured for karma to test html DOM.",
   "main": "index.js",
   "scripts": {
