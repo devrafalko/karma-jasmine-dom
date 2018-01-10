@@ -14,11 +14,11 @@
 module.exports = function(config) {
   config.set({
     //karma config here
-    frameworks: ['dom-matchers','jasmine']
+    frameworks: ['jasmine-dom','jasmine']
   });
 };
 ```
-> **Mind** that `dom-matchers` must precede `jasmine` *(as above)* in the `frameworks` array. The frameworks are loaded from right to left and the `jasmine` must be loaded first, as the `dom-matchers` are `jasmine` custom matchers.
+> **Mind** that `jasmine-dom` must precede `jasmine` *(as above)* in the `frameworks` array. The frameworks are loaded from right to left and the `jasmine` must be loaded first, as the `jasmine-dom` are `jasmine` custom matchers.
 
 # Tests
 Load the matchers with `jasmine.addMatchers` native method:
